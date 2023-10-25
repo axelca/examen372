@@ -1,0 +1,44 @@
+    1  mkdir examen372
+    2  cd examen372/
+    3  touch create.sh
+    4  echo "print('#! /bin/bash')"> create.sh
+    5  git init
+    6  git status
+    7  git add .
+    8  git commit -m "primera vercion del programa"
+    9  git status
+   10  git commit -am "primera vercion del programa"
+   11  git status
+   12  git add .
+   13  git commit -m "primera vercion del programa"
+   14  git status
+   15  git log --oneline
+   16  echo "rm webapp"> create.sh
+   17  code create.sh 
+   18  mkdir hola
+   19  ls
+   20  rm -rf hola
+   21  ls
+   22  rm -rf hola
+   23  curl -o meme.jpg "https://pm1.aminoapps.com/7021/417429318f6b29b6bc737fb95ba1ddafc9ba2decr1-720-642v2_hq.jpg"
+   24  git status
+   25  git add .
+   26  git commit -m "Second commit, structure created"
+   27  git status
+   28  git log --oneline
+   29  ./create 
+   30  ./create.sh 
+   31  cmd //c tree //F ./
+   32  cd ..
+   33  mv examen examen372
+   34  cd examen372
+   35  mv examen372.md README.md
+   36  git status
+   37  code examen372
+   38  code examen372
+   39  code examen372
+   40  git status
+   41  git add .
+   42  git status
+   43  git commit -m "Third commit, add README.md and final script updated"
+   44  history > historial.txt
